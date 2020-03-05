@@ -58,7 +58,6 @@ public class UserController {
     }
 
 
-
     @PostMapping("/addUsers")//this is only for post request..
     public void addUser(@RequestBody User user) {
         userService.addUser(user);
@@ -79,14 +78,21 @@ public class UserController {
         return userService.getAllUser();
     }
 
-    @GetMapping("/allProblems")
-    public UserProblems getAllProblems() {//akhane shodho first problem ta dekhabe.
+    @GetMapping("/lastUserProblem")
+    public UserProblems getLastProblem() {//akhane shodho first problem ta dekhabe.
         List<UserProblems> upb = upbIMP.getAllProblem();
         if (upb.size() >= 0) {
-            return upb.get(5);
-        } else {    //
+            int lastValue = upb.size() - 1;//last problem ta dekhabe
+            return upb.get(lastValue);
+        } else {
             return null;
         }
+    }
+
+    @GetMapping("/allUserProblems")
+    public List<UserProblems> getAllUserProblems() {
+        List<UserProblems> upb = upbIMP.getAllProblem();
+        return upb;
     }
 
     @GetMapping("/adminAllHere")//for all admin show
@@ -113,7 +119,8 @@ public class UserController {
     public User getUserByEmailUsingEmail(@PathVariable("email") String email) {
         return userService.getOneUserByEmail(email);
     }
-//    @GetMapping("/getAdminByEmailByEmail/{email}")
+
+    //    @GetMapping("/getAdminByEmailByEmail/{email}")
 //    public Admin_entity getAsminByEmailUsingEmail(@PathVariable("email") String email) {
 //        return adminService.getOneAdmin_entityByEmail(email);
 //    }
