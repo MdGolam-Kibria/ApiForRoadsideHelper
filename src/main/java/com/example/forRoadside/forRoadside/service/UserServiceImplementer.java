@@ -19,7 +19,6 @@ public class UserServiceImplementer implements UserService {
         userRpository.save(user);
     }
 
-
     @Override
     public void updateUser(User user) {
         userRpository.save(user);
