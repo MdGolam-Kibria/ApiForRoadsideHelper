@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 public class AdminController {
+
     @Autowired
     AdminTypeRepository adminRepository;
     @PostMapping("/authenticateAdminBYAdminEmailAndPassword")

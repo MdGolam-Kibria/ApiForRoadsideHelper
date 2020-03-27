@@ -55,10 +55,16 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.google.firebase/firebase-admin -->
+<!--		<dependency>-->
+<!--			<groupId>com.google.firebase</groupId>-->
+<!--			<artifactId>firebase-admin</artifactId>-->
+<!--			<version>6.12.2</version>-->
+<!--		</dependency>-->
+		//here doesn't support the latest dependency below
 		<dependency>
 			<groupId>com.google.firebase</groupId>
 			<artifactId>firebase-admin</artifactId>
-			<version>6.12.2</version>
+			<version>5.5.0</version>
 		</dependency>
 
 		<dependency>
