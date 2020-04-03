@@ -9,7 +9,7 @@ import javax.annotation.PostConstruct;
 import java.io.FileInputStream;
 
 @Service
-public class FirebaseInitialize {
+public class FirebaseInitialize {//here i added firebase 
     @PostConstruct
     public void initialize() {
 
