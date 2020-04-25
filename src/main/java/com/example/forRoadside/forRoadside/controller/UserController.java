@@ -60,12 +60,12 @@ public class UserController {
     }
 
 
-    @PostMapping("/addUsers")//this is only for post request..
+    @PostMapping("/addUsers")//This method only for Add a user.
     public void addUser(@RequestBody User user) {
         userService.addUser(user);
     }
 
-    @PostMapping("/addUsersPB")//this is only for post request..for add user problem to database
+    @PostMapping("/addUsersPB")//This method only for adding a user problem to MySQL Database.
     public void addUser(@RequestBody UserProblems userProblems) {
         upbIMP.addUserProblems(userProblems);
     }
@@ -81,10 +81,10 @@ public class UserController {
     }
 
     @GetMapping("/lastUserProblem")
-    public UserProblems getLastProblem() {//akhane shodho first problem ta dekhabe.
+    public UserProblems getLastProblem() {//This method only for get last problems
         List<UserProblems> upb = upbIMP.getAllProblem();
         if (upb.size() >= 0) {
-            int lastValue = upb.size() - 1;//last problem ta dekhabe
+            int lastValue = upb.size() - 1; //Here is the last problem.
             return upb.get(lastValue);
         } else {
             return null;
@@ -102,7 +102,7 @@ public class UserController {
         return adminService.getAllAdmin();
     }
 
-    @GetMapping("/get/{id}")
+    @GetMapping("/get/{id}")//search user by her ID 🆔 
     public Optional<User> getOneUser(@PathVariable("id") int id) {
         return userService.getUser(id);
     }
@@ -120,7 +120,7 @@ public class UserController {
     }
 
     @DeleteMapping("/deleteAll")
-    public List<User> deleteAll() {
+    public List<User> deleteAll() {//Delete all User sad 😔 
         return userService.deleteAll();
     }
 
@@ -135,7 +135,7 @@ public class UserController {
 //    }
 
 
-    @GetMapping("/getUserByEmailByQuary/{email}")
+    @GetMapping("/getUserByEmailByQuary/{email}")//get a user by her email using MySQL query.
     public User getUserByEmailUsingQuary(@PathVariable("email") String email) {
         List<User> users = userTypeRepository.getuserAllInfoByEmail(email);
         if (users.size() > 0) {
