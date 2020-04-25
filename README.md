@@ -8,8 +8,8 @@ here i use Mysql database.
 
 Features use This Project:---
 
-# Spring boot.
-# Making mysql_query for Get data from Mysql database.
-# Authentication and Authorization Using Java Spring Boot.
-# Post And get Image Using Java Spring Boot.
-# Another Features Comming soon............
+- Spring boot.
+- Making mysql_query for Get data from Mysql database.
+- Authentication and Authorization Using Java Spring Boot.
+- Post And get Image Using Java Spring Boot.
+- Another Features Comming soon............
