@@ -111,7 +111,7 @@ public class UserController {
     @DeleteMapping("/deleteUser/{id}")//useing return server responce
     public ResponseEntity<User> deleteUser(@PathVariable int id) {
         Optional<User> userHave = userService.getUser(id);
-        if (userHave != null) {
+        if (userHave != null) {//if there is any user by the id
             userService.deleteUser(id);
             return new ResponseEntity<User>(HttpStatus.OK);
         } else {
