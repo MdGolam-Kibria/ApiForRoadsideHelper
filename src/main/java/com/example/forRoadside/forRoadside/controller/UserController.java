@@ -9,6 +9,8 @@ import com.example.forRoadside.forRoadside.service.UserService;
 import com.example.forRoadside.forRoadside.service.admin.AdminService;
 import com.example.forRoadside.forRoadside.service.serviceProvider.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -106,8 +108,15 @@ public class UserController {
     }
 
 
-    @DeleteMapping("/deleteUser/{id}")
-    public void deleteUser(@PathVariable int id) {
+    @DeleteMapping("/deleteUser/{id}")//useing return server responce
+    public ResponseEntity<User> deleteUser(@PathVariable int id) {
+        Optional<User> userHave = userService.getUser(id);
+        if (userHave != null) {
+            userService.deleteUser(id);
+            return new ResponseEntity<User>(HttpStatus.OK);
+        } else {
+            return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+        }
     }
 
     @DeleteMapping("/deleteAll")
