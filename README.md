@@ -12,6 +12,7 @@ Features use This Project:---
 - Making mysql_query for Get data from Mysql database.
 - Authentication and Authorization Using Java Spring Boot.
 - Post And get Image Using Java Spring Boot.
+- role based authentication and send notification
 - Another Features Comming soon.....like spring security,JWT authentication etc.......
 
 ### Here i use  "JdbcTemplate jdbcTemplate;" for my custom query way this a way for make custom query another way in below  link
