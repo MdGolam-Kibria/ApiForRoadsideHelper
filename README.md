@@ -28,7 +28,8 @@ Authorization = key=[yourFirebaseServerKey]
 ![image](https://user-images.githubusercontent.com/61331272/115994185-c07f3780-a5f7-11eb-801d-97c286652a73.png)
 <br/>
 2) set notification data to body like below:-
-```{
+```
+{
     "registration_ids":[
     	 "your device registration key",
        "your device registration key"
@@ -40,4 +41,5 @@ Authorization = key=[yourFirebaseServerKey]
 }
 
 ```
+<br/>
 ![image](https://user-images.githubusercontent.com/61331272/115994160-a5142c80-a5f7-11eb-920a-cc8266548476.png)
