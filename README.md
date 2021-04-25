@@ -18,3 +18,26 @@ Features use This Project:---
 ### Here i use  "JdbcTemplate jdbcTemplate;" for my custom query way this a way for make custom query another way in below  link
 
 @https://github.com/MdGolam-Kibria/Spring_boot_CRUD_projectSpringMVC_SpringDataJPAThHibernateMySQLUsingHtmlForm/blob/master/src/main/java/com/example/controlProducts/productManager/Repository/ProductRepository.java
+
+
+
+### For Send Notification to Firebase from spring boot application: - <br/>
+1) First set on header:- <br/><br/>
+Content-Type =application/json <br/>
+Authorization = key=[yourFirebaseServerKey]
+![image](https://user-images.githubusercontent.com/61331272/115994185-c07f3780-a5f7-11eb-801d-97c286652a73.png)
+<br/>
+2) set notification data to body like below:-
+```{
+    "registration_ids":[
+    	 "your device registration key",
+       "your device registration key"
+    	],
+    "data": {
+    	      "message": "Rich Notification testing (body)",
+            "title": "Check this Mobile (title)"
+    }
+}
+
+```
+![image](https://user-images.githubusercontent.com/61331272/115994160-a5142c80-a5f7-11eb-920a-cc8266548476.png)
