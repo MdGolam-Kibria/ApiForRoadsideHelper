@@ -27,8 +27,8 @@ Content-Type =application/json <br/>
 Authorization = key=[yourFirebaseServerKey]
 ![image](https://user-images.githubusercontent.com/61331272/115994185-c07f3780-a5f7-11eb-801d-97c286652a73.png)
 <br/>
-2) set notification data to body like below:-
-`
+2) set notification data to body like below:-<br/>
+```
 {
     "registration_ids":[
     	 "your device registration key",
@@ -40,7 +40,7 @@ Authorization = key=[yourFirebaseServerKey]
     }
 }
 
-`
+```
 <br/>
 <br/>
 ![image](https://user-images.githubusercontent.com/61331272/115994381-8d897380-a5f8-11eb-83b7-a24f075c1a2d.png)
