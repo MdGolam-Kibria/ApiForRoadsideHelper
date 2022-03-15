@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T17:49:21.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.3" etag="Y1B7LR0armV3njNVaTfj" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7VpNc5swEP01PnYGEHbcY+PmY6ZOJjM+9KwgBdQK5BHCmPz6SkYyn8EkxglOmkvQYxHSe6vdlfAELMLtDYfr4I4hTCeOhbYT8HPiOLbjAPlPIVmOzNxpDvicIG1UACvyjDVoaTQhCMcVQ8EYFWRdBT0WRdgTFQxyztKq2ROj1beuoY8bwMqDtIn+JkgEOTp3Lgr8FhM/MG+2Z9/zOyE0xnomcQARS0sQuJqABWdM5FfhdoGpIs/wkj93/cLd/cA4jkSfB9D9Nrv/deFdzB+X6SZG+O52+s3Wo91AmugZP0h69YhFZmiIUxJSGMnWZSBCKkFbXnoBoWgJM5aoEcQCen9N65LjWIr5YIZn16A7qFzEUv0xTp5ZJCDVgOyHC+0JTtVipV6hzZrz15RsMBd4W4I0HzeYhVjwTJrs3VNrk9XaaSG1O9VYUJIZzDQItXv5+74LBeSFFuEVghjHKgnSEAMj6aK6ybgImM8iSK8K9JKzJEIYaaYKmyVjay3GHyxEplmGiWBVZRGMg93zqoEj9EMtJdmM2M4HJHJNKH1RiU5fi1nCPdzFgasXOuQ+7urRmeWGipBOvTmmUJBNdU0Prh2wP0KqkjoehXFMvIpA9ikEmvcUCFjjEmj6X6AaI+64BJp/FYFmfQUaPMTtHpXzhVnJYM1IJOJSzw8KKGXKeTVTArdWbNTsXavTXl7kIyhcZT+VI3Kn1cidS1WzOFYzMLcXNB2lx9tyXf9apK30AC2lx75GGb70mI6i9OjJ8L6sPrjUQN9qYlyx0Iy7Uw5K5UZI0Z4GRODVGu6oSOVe7ChS+7utW13nbosXtzixezIfdg+TVvXQA8Q9ycV/DUNC1QRvMd1gQTyob2gfth3dXjDK+O4lwNr9SRxS4kcqs0jmMT+lFPXdDGhqMW/R4mRbGdDHgc8pu/cOOYb5w9ndGVXIAc0E+mVWTz2Sffjqcc4h/O8PQsYS/+0Ga7oEbLI32hKw6zTqnUvC5vHgmYdwsxMYbINmttojCeFm3J8ghB99nPvRIdy4RqcWAQsfk/hT6eCMLSk0U6lOCuDskkIrme+bFMA4PlEMmBTM+A/W9X0/TAx/anecYp9nV2yW8pvr+pai6n3r+j4JevxJ4dU61HcKLcl5oKQgm8VX9fxsufhtArj6Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-15T18:37:43.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="dZEs8N4GYIjJ86Z0Jh9t" version="17.1.3" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="951" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E6E6E6" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cCzKmeD9UwWFpZYX1pDj-2" target="cCzKmeD9UwWFpZYX1pDj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-2" value="CORPnet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="335" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="cCzKmeD9UwWFpZYX1pDj-3" target="cCzKmeD9UwWFpZYX1pDj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="cCzKmeD9UwWFpZYX1pDj-3" target="cCzKmeD9UwWFpZYX1pDj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-7" value="&lt;h4&gt;OSB&lt;/h4&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Oracle Service Bus&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="335" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="cCzKmeD9UwWFpZYX1pDj-8" target="cCzKmeD9UwWFpZYX1pDj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-8" value="&lt;font style=&quot;font-size: 12px&quot;&gt;C24&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="cCzKmeD9UwWFpZYX1pDj-9" target="cCzKmeD9UwWFpZYX1pDj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-12" value="Finacle DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-13" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-14" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-17" value="FI Call&lt;br&gt;(Finacle Call)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="305" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-25" value="&lt;h1&gt;&lt;span&gt;OSB (Oracle Service Bus):&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;About OSB&amp;nbsp;&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;Oracle Service Bus transforms complex and brittle architectures into agile integration networks by connecting, virtualizing, and managing interactions between services and applications. Oracle Service Bus delivers low-cost, standards-based integration for mission critical SOA (Service-oriented architecture) environments where extreme performance, scalability and reliability are critical requirements.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Oracle Service Bus enables companies to unlock the value of their enterprise applications portfolio. From on-premise, to the cloud to mobile devices and to the future, Oracle Service Bus allows companies to leverage their existing investments in whole new ways.&lt;/div&gt;&lt;div&gt;Oracle Service Bus extends the performance and scalability leadership of Oracle SOA Suite and Oracle API Management.&lt;/div&gt;&lt;div&gt;For more details you can click here&amp;nbsp;&lt;a href=&quot;https://www.oracle.com/middleware/technologies/service-bus.html&quot;&gt;https://www.oracle.com/middleware/technologies/service-bus.html&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Our OSB use case:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;After approve the transaction from the approver end all transaction data send to &lt;b&gt;OSB&lt;/b&gt;&amp;nbsp;by calling a OSB end point called ________________&lt;/div&gt;&lt;/div&gt;&lt;div&gt;using our &lt;b&gt;BatchProcessor&lt;/b&gt; Application based on ___________ Table&amp;nbsp; status = _______ and satelmentStatus = _______ and chunkid = ______&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;And then call the &lt;b&gt;C24&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="830" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-26" value="&lt;h1&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;CORPnet LIFE CYCLE&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="780" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cCzKmeD9UwWFpZYX1pDj-27" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;IFT (Single[one to many] and Bulk[many to many])&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="195" y="430" width="350" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
